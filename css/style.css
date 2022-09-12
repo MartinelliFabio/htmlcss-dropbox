@@ -42,10 +42,6 @@ body {
     width: 70%;
 }
 
-.w-img {
-    width: 100%;
-}
-
 li {
     list-style: none;
 }
@@ -98,6 +94,36 @@ nav ul li {
 
 h1 {
     font-size: 76px;
+    font-weight: 900;
+}
+
+.w-30 {
+    flex-flow: column wrap;
+    position: relative;
+}
+
+.w-30 p {
+    padding-top: 35px;
+    line-height: 23px;
+}
+
+.btn-hero {
+    background-color: var(--button);
+    color: var(--white);
+    padding: 15px;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.w-30 i {
+    position: absolute;
+    font-size: 50px;
+    bottom: 100px
+}
+
+.w-img {
+    width: 100%;
+    padding-top: 35px;
 }
 
 /* ! Footer */
