@@ -13,11 +13,16 @@
     --black: #000000;
     --lightblue: #b5d0e8;
     --button: #0161ff;
+    --gray: #d0d0d3;
+    --p-date: #666666;
+    --link: #0000ee;
+    --hr: #d0d0d3;
 }
 
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -111,7 +116,7 @@ h1 {
     background-color: var(--button);
     color: var(--white);
     padding: 15px;
-    width: 60%;
+    width: 65%;
     margin-top: 25px;
 }
 
@@ -124,6 +129,97 @@ h1 {
 .w-img {
     width: 100%;
     padding-top: 35px;
+}
+
+/* ! Main */
+/* ! Sezione Piani */
+h2 {
+    font-size: 45px;
+}
+
+.in-check {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.in-check label {
+    padding-right: 50px;
+}
+
+.card {
+    border: 1px solid var(--gray);
+    width: calc((100% - 135px) / 3);
+    margin-right: 45px;
+}
+
+.title-card {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.card i {
+    padding-right: 5px;
+}
+
+.plan {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px 25px;
+}
+
+.price {
+    font-weight: bold;
+    padding: 20px 0 15px;
+}
+
+.p-date {
+    font-size: 14px;
+    color: var(--p-date);
+}
+
+.description {
+    padding: 20px 0 5px;
+    font-size: 15px;
+}
+
+.btn-plan {
+    background-color: var(--button);
+    color: var(--white);
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-buy {
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.buy-now {
+    text-decoration: underline;
+    color: var(--link);
+}
+
+.plan hr {
+    width: 50px;
+    border: 1px solid var(--hr);
+}
+
+.plan h4 {
+    padding-top: 45px;
+    font-size: 15px;
+}
+
+.fa-check {
+    color: var(--link);
+    font-size: 18px;
 }
 
 /* ! Footer */
