@@ -164,6 +164,7 @@ h3 {
 
 .card i {
     padding-right: 5px;
+    padding-top: 3px;
 }
 
 .plan {
@@ -220,6 +221,43 @@ h3 {
 .fa-check {
     color: var(--link);
     font-size: 18px;
+}
+
+.card-finals {
+    border: 1px solid var(--gray);
+    width: 100%;
+    margin-top: 45px;
+}
+
+.card-finals i {
+    padding-right: 5px;
+}
+
+.section-team {
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.team-description {
+    flex-flow: column wrap;
+    width: 70%;
+}
+
+.team-description h4 {
+    font-size: 14px;
+    padding: 15px 0 50px;
+}
+
+.team-description p {
+    font-size: 15px;
+}
+
+.btn-team {
+    background-color: var(--button);
+    color: var(--white);
+    padding: 10px 30px;
+    display: block;
+    font-size: 15px;
 }
 
 /* ! Footer */

@@ -55,17 +55,21 @@
 
     <!-- Main 100% con 7 sezioni -->
     <main>
-
+       
+        <!-- Sezione dei Piani Business -->
         <section id="piani" class="container-small">
             <h2>Trova il piano business che fa per te</h2>
             <div class="in-check">
-                <input type="radio" checked="checked" name="radio">
-                <label>Fatturazione mensile</label>
-                <input type="radio" name="radio">
-                <label>Fatturarione anuale</label>
+                <input type="radio" name="radio" id="mensile">
+                <label for="mensile">Fatturazione mensile</label>
+                <input type="radio" name="radio" id="annuale">
+                <label for="annuale">Fatturarione anuale</label>
             </div>
 
+            <!-- Div delle card con i piani -->
             <div class="d-flex">
+
+                <!-- Primo Piano -->
                 <div class="card">
                     <div class="title-card">
                         <i class="fa-solid fa-user"></i>
@@ -87,49 +91,75 @@
                         <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Cartelle offline su dispositivi mobili</p></div>
                     </div>
                 </div>
+
+                <!-- Secondo Piano -->
                 <div class="card">
                     <div class="title-card">
-                        <i class="fa-solid fa-user"></i>
-                        Singolo
+                        <i class="fa-solid fa-users"></i>
+                        Team
                     </div>
                     <hr>
                     <div class="plan">
-                        <h3>Professional</h3>
-                        <p class="price">&euro; 12.00</p>
-                        <p class="p-date">/mese</p>
-                        <div class="description d-flex"><i class="fa-solid fa-user"></i><p>1 utente</p></div> 
-                        <div class="description d-flex"><i class="fa-solid fa-folder"></i><p>5 TB di spazio di archiviazione sicuro</p></div>
-                        <div class="description d-flex"><i class="fa-solid fa-share-nodes"></i><p>Funzioni di produttivi&agrave; premium e condivisione file semplice e sicura</p></div>
+                        <h3>Advanced</h3>
+                        <p class="price">&euro; 18.00</p>
+                        <p class="p-date">/utente/mese</p>
+                        <div class="description d-flex"><i class="fa-solid fa-user"></i><p>3 o pi&ugrave; utenti</p></div> 
+                        <div class="description d-flex"><i class="fa-solid fa-folder"></i><p>Tutto lo spazio di cui ha bisogno il tuo team</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-share-nodes"></i><p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p></div>
                         <a href="" class="btn-plan">Prova Gratis per 30 giorni</a>
                         <p class="p-buy">oppure <a href="" class="buy-now">acquista ora</a></p>
                         <hr>
                         <h4>Punti Salienti del piano</h4>
-                        <div class="description d-flex"><i class="fa-solid fa-check"></i><P>Invia file fino a 100 GB con Dropbox Transfert</P></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><P>Nessun limite di spazio per i file</P></div>
                         <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Cartelle offline su dispositivi mobili</p></div>
-                        <div class="description d-flex"><i class="fa-solid fa-check"></i><P>Invia file fino a 100 GB con Dropbox Transfert</P></div>
-                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Cartelle offline su dispositivi mobili</p></div>
-                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Cartelle offline su dispositivi mobili</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><P>Risparmio del 50&percnt; rispetto alle iscrizioni singole</P></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Possibilit&agrave; di inserire nuovi membri del team</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Gestione dei permessi in base ai ruoli</p></div>
                     </div>
                 </div>
+
+                <!-- Terzo Piano -->
                 <div class="card">
                     <div class="title-card">
-                        <i class="fa-solid fa-user"></i>
-                        Singolo
+                        <i class="fa-solid fa-building"></i>
+                        Azienda
                     </div>
                     <hr>
                     <div class="plan">
-                        <h3>Professional</h3>
-                        <p class="price">&euro; 12.00</p>
-                        <p class="p-date">/mese</p>
-                        <div class="description d-flex"><i class="fa-solid fa-user"></i><p>1 utente</p></div> 
-                        <div class="description d-flex"><i class="fa-solid fa-folder"></i><p>5 TB di spazio di archiviazione sicuro</p></div>
-                        <div class="description d-flex"><i class="fa-solid fa-share-nodes"></i><p>Funzioni di produttivi&agrave; premium e condivisione file semplice e sicura</p></div>
-                        <a href="" class="btn-plan">Prova Gratis per 30 giorni</a>
+                        <h3>Enterprise</h3>
+                        <p class="price">Contattaci</p>
+                        <p class="p-date">-</p>
+                        <div class="description d-flex"><i class="fa-solid fa-user"></i><p>10 o pi&ugrave; utenti</p></div> 
+                        <div class="description d-flex"><i class="fa-solid fa-folder"></i><p>Soluzioni personalizzabili per la tua azienda</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-share-nodes"></i><p>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p></div>
+                        <a href="" class="btn-plan">Contattaci</a>
                         <p class="p-buy">oppure <a href="" class="buy-now">acquista ora</a></p>
                         <hr>
                         <h4>Punti Salienti del piano</h4>
-                        <div class="description d-flex"><i class="fa-solid fa-check"></i><P>Invia file fino a 100 GB con Dropbox Transfert</P></div>
                         <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Cartelle offline su dispositivi mobili</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Servizio assistenza 24/h</p></div>
+                        <div class="description d-flex"><i class="fa-solid fa-check"></i><p>Possibilità di personalizzazione totale</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sezione piano Enterprise -->
+            <div class="card-finals">
+                <div class="title-card">
+                    <i class="fa-solid fa-building"></i>
+                    Team
+                </div>
+                <hr>
+                <div class="section-team d-flex">
+                    <div class="team-description d-flex">
+                        <h3>Enterprise</h3>
+                        <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                        <p>Soluzione personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                    </div>
+                    <div class="section-team-btn">
+                        <div class="btn-team d-flex">
+                            Contatta l&apos;ufficio vendite
+                        </div>
                     </div>
                 </div>
             </div>
