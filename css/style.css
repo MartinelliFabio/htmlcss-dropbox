@@ -17,7 +17,12 @@
     --p-date: #666666;
     --link: #0000ee;
     --hr: #d0d0d3;
+    --btn-hover-blue: #297afe;
+    --btn-hover-gray: #dfdede;
     --lingua: #999999;
+    --radio-btn: #eee;
+    --radio: #0061ff;
+    --radio-hover: #ccc;
     --bg-1: #a2d39b;
     --bg-cbd-1: #d1e9cd;
     --bg-2: #61082b;
@@ -73,6 +78,15 @@ img {
 
 .margin {
     margin: 0 40px;
+}
+
+/* ! Hover per i bottoni */
+.btn:hover {
+    background-color: var(--btn-hover-blue);
+}
+
+.btn-gray:hover {
+    background-color: var(--btn-hover-gray);
 }
 
 /* ! Header */
@@ -135,7 +149,7 @@ h1 {
     background-color: var(--button);
     color: var(--white);
     padding: 15px;
-    width: 65%;
+    width: 63%;
     margin-top: 25px;
 }
 
@@ -185,16 +199,16 @@ h1 {
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #eee;
+    background-color: var(--radio-btn);
     border-radius: 50%;
 }
 
 .container_button:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: var(--radio-hover);
 } 
 
 .container_button input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: var(--radio);
 }
 
 .checkmark:after {
@@ -213,7 +227,7 @@ h1 {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: white;
+    background: var(--white);
 }
 
 h2 {
