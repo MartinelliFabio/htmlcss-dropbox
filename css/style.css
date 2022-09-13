@@ -412,6 +412,33 @@ h3 {
     padding: 35px;
 }
 
+/* ! CSS Sezione Dropbox Business con bottone prova grauita */
+.business-prova {
+    background-color: var(--bg-6); /* usa lo stesso colore del bg n.6 */
+    align-content: center;
+}
+
+.col-title {
+    width: 65%;
+    font-size: 30px;
+    color: var(--bg-2); /* usa lo stesso colore del bg n.2 */
+}
+
+.business-prova div.container-small {
+    justify-content: space-between;
+}
+
+.col-btn {
+    margin-top: 15px;
+}
+
+.btn-prova {
+    background-color: var(--white);
+    padding: 10px 50px;
+    display: block;
+    font-size: 15px;
+}
+
 /* ! Footer */
 footer {
     background-color: var(--black);
