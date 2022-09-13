@@ -17,6 +17,7 @@
     --p-date: #666666;
     --link: #0000ee;
     --hr: #d0d0d3;
+    --lingua: #999999;
 }
 
 body {
@@ -84,7 +85,7 @@ nav .d-flex {
     justify-content: space-between;
 }
 
-nav ul li {
+nav .nav-flex li {
     padding-left: 30px;
     padding-top: 25px;
 }
@@ -324,4 +325,33 @@ h3 {
 footer {
     background-color: var(--black);
     color: var(--white);
+}
+
+.container-footer {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    line-height: 35px;
+}
+
+.col-footer {
+    width: calc(100% / 5);
+}
+
+.container-footer h3 {
+    padding-bottom: 25px;
+}
+
+footer hr {
+    width: 10%;
+}
+
+.lingua {
+    color: var(--lingua);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.fa-earth-americas {
+    padding-right: 5px;
 }
