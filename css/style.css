@@ -152,6 +152,70 @@ h1 {
 
 /* ! Main */
 /* ! Sezione Piani */
+#piani {
+    padding-top: 80px;
+    margin-top: 70px;
+}
+
+/* Personalizzazione radio buttons */
+.container_button {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 20px;
+    line-height: 24px;
+}
+
+.container_button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.container_button:hover input ~ .checkmark {
+    background-color: #ccc;
+} 
+
+.container_button input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container_button input:checked ~ .checkmark:after {
+    display: inline-block;
+}
+
+.container_button .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
 h2 {
     font-size: 45px;
 }
@@ -347,6 +411,10 @@ h3 {
     justify-content: center;
     cursor: pointer;
 } 
+
+.bg-3 img {
+    padding: 45% 0;
+}
 
 .box img {
     filter: invert(1);

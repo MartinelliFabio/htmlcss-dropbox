@@ -42,7 +42,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <a href="" class="btn-hero">Inizia la tua prova gratuita</a>
                         <p>Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#piani"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                     <div class="w-70">
                         <img src="img/jumbo.png" alt="Immagine Hero" class="w-img">
@@ -60,10 +60,14 @@
         <section id="piani" class="container-small">
             <h2>Trova il piano business che fa per te</h2>
             <div class="in-check">
-                <input type="radio" name="radio" id="mensile">
-                <label for="mensile">Fatturazione mensile</label>
-                <input type="radio" name="radio" id="annuale">
-                <label for="annuale">Fatturarione anuale</label>
+                <label class="container_button">Fatturazione mensile
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container_button">Fatturazione annuale
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
             </div>
 
             <!-- Div delle card con i piani -->
@@ -224,7 +228,7 @@
             </div>
         </section>
 
-        <section class="d-flex">
+        <section id="logos" class="d-flex">
 
             <!-- Primo gruppo di loghi -->
             <div class="group-logos d-flex wrap">
@@ -235,7 +239,7 @@
                     <img src="img/arizona_state_university.svg" alt="ASU">
                 </div>
                 <div class="box bg-3 d-flex"> 
-                    <!-- <img src="img/university_of_florida.svg" alt="UF"> -->
+                    <img src="img/university_of_florida.svg" alt="UF">
                 </div>
                 <div class="box bg-4 d-flex">
                     <img src="img/topps.svg" alt="Topps">
