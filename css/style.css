@@ -18,6 +18,16 @@
     --link: #0000ee;
     --hr: #d0d0d3;
     --lingua: #999999;
+    --bg-1: #a2d39b;
+    --bg-cbd-1: #d1e9cd;
+    --bg-2: #61082b;
+    --bg-3: #0093ce;
+    --bg-4: #ff1c1c;
+    --bg-5: #d5001f;
+    --bg-6: #b4d0e7;
+    --bg-7: #0d2481;
+    --bg-8: #ffd830;
+    --bg-center: #f5f5f5;
 }
 
 body {
@@ -319,6 +329,87 @@ h3 {
 
 .link-scopri {
     padding-top: 50px;
+}
+
+
+/* ! CSS Sezione Loghi */
+.group-logos {
+    width: 30vw;
+}
+
+.wrap {
+    flex-flow: row wrap;
+}
+
+.box {
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+    cursor: pointer;
+} 
+
+.box img {
+    filter: invert(1);
+    width: 50%;
+}
+
+/* ! Colori Background dei Loghi */
+.bg-1 {
+    background-color: var(--bg-1);
+    border: 15px solid var(--bg-cbd-1);
+}
+
+.bg-2 {
+    background-color: var(--bg-2);
+}
+
+.bg-3 {
+    background-color: var(--bg-3);
+}
+
+.bg-4 {
+    background-color: var(--bg-4);
+}
+
+.bg-5 {
+    background-color: var(--bg-5);
+}
+
+.bg-6 {
+    background-color: var(--bg-6);
+}
+
+.bg-7 {
+    background-color: var(--bg-7);
+}
+
+.bg-8 {
+    background-color: var(--bg-8);
+}
+
+/* ! CSS della descrizione dei Loghi */
+.description-logos {
+    width: calc(100% - 60vw);
+    background-color: var(--bg-center);
+    overflow-y: auto;
+    height: 30vw;
+}
+
+.description-logos img {
+    width: 50%;
+    padding: 35px;
+}
+
+.description-logos hr {
+    width: 17%;
+    margin-left: 35px;
+    border: 0.1px solid var(--hr);
+    border-width: thin;
+}
+
+.description-logos p {
+    line-height: 25px;
+    padding: 35px;
 }
 
 /* ! Footer */
