@@ -782,12 +782,35 @@ textarea:focus, input:focus{
     border-radius: 3px;
 }
 
-footer {
+#footer-register {
     background-color: var(--white);
     color: var(--p-date);
 }
 
-.footer-container {
+.nav-footer-register {
     width: 40%;
     margin: 0 auto;
+}
+
+#footer-register hr {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.container-footer-register {
+    width: 100%;
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+.container-footer-register h3 {
+    font-size: 15px;
+}
+
+.container-footer-register ul li {
+    font-size: 13px;
+}
+
+.col-footer-register {
+    padding-right: 45px;
 }
