@@ -18,6 +18,7 @@
     --p-date: #666666;
     --link: #0000ee;
     --hr: #d0d0d3;
+    --items-hover: #f2eee8;
     --btn-hover-blue: #297afe;
     --btn-hover-gray: #dfdede;
     --lingua: #999999;
@@ -41,6 +42,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+html{ 
+    scroll-behavior: smooth;
+}
+
 
 /* CSS Globale */
 .container {
@@ -99,15 +105,15 @@ img {
 /* ! Header */
 header nav {
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 999;
     background-color: var(--white);
 }
 
-nav .d-flex {
+nav  {
     align-items: center;
 }
 
@@ -116,9 +122,9 @@ nav .d-flex {
     justify-content: space-between;
 }
 
-nav .nav-flex li {
-    padding-left: 30px;
-    padding-top: 25px;
+nav .nav-flex .items {
+    margin-left: 10px;
+    padding: 25px 15px 15px;
 }
 
 .btn-inizia {
@@ -127,6 +133,55 @@ nav .nav-flex li {
     color: var(--white);
 }
 
+/* ! CSS del menu a tendina */
+/** menu-a-tentida **/
+ul.menu li{
+    display: block;
+    position: relative;
+}
+
+ul.menu li:hover{
+    background: var(--items-hover);
+    color: var(--black);
+}
+ul.menu li a:hover{
+    background: var(--items-hover);
+    color: var(--black);
+}
+
+ul.menu ul{
+    margin: 10px 0 0;
+    display: inline-block;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 59px;
+    left: 0;
+    z-index:999;
+    background: var(--items-hover);
+}
+
+ul.menu li:hover ul{
+    background: var(--items-hover);
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.menu ul li{
+    display: block;
+    border: 0;
+    padding: 15px;
+}
+
+ul.menu ul a{
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+/* ! CSS della Hero */
 #hero {
     background-color: var(--lightblue);
     padding-top: 80px;
