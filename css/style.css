@@ -72,7 +72,7 @@ a {
     color: var(--black);
 }
 
-img {
+#body-home img {
     width: 100%;
 }
 
@@ -642,3 +642,42 @@ footer hr {
 .fa-earth-americas {
     padding-right: 5px;
 }
+
+/* ! CSS della pagina Registrazione */
+
+/* ! CSS Header Register */
+#header-register nav {
+    height: 80px;
+    border-bottom: 1px solid var(--gray);
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
+#header-register img {
+    width: 110%;
+}
+
+#header-register nav ul {
+    justify-content: space-between;
+    width: 55%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#header-register ul li {
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+.scarica {
+    color: var(--button);
+}
+
+.btn-prova-register {
+    border: 1px solid var(--button);
+    padding: 8px 13px;
+    border-radius: 5px;
+    color: var(--button);
+    font-weight: bold;
+}
+
+/* ! CSS Main Register */
