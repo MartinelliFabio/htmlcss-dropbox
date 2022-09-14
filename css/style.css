@@ -790,6 +790,7 @@ textarea:focus, input:focus{
 .nav-footer-register {
     width: 40%;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 #footer-register hr {
