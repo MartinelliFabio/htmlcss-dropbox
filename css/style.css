@@ -357,10 +357,13 @@ h3 {
 
 .btn-team {
     background-color: var(--button);
-    color: var(--white);
     padding: 10px 30px;
     display: block;
     font-size: 15px;
+}
+
+.btn-team a {
+    color: var(--white);
 }
 
 /* ! CSS Sezione Partner */
